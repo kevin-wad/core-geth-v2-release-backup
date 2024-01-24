@@ -17,7 +17,9 @@ package params
 
 import (
 	"math/big"
+
 	"github.com/ethereum/go-ethereum/params/types/coregeth"
+	"github.com/ethereum/go-ethereum/params/types/ctypes"
 )
 
 var (
