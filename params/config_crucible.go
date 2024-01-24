@@ -25,6 +25,7 @@ var (
 	CrucibleChainConfig = &coregeth.CoreGethChainConfig{
 		NetworkID:                 61888,
 		ChainID:                   big.NewInt(61888),
+		Ethash:                        new(ctypes.EthashConfig),
 
 		//HomesteadBlock: big.NewInt(0),
 		EIP150Block: big.NewInt(0),
