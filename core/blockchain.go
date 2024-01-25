@@ -239,6 +239,9 @@ func NewBlockChain(db ethdb.Database, cacheConfig *CacheConfig, genesis *genesis
 	if cacheConfig == nil {
 		cacheConfig = defaultCacheConfig
 	}
+	log.Info("<--------- cacheConfig.String() -------> ")
+	log.Info("-------> ", cacheConfig)
+	log.Info("<--------- cacheConfig.String() -------> ")
 	// Open trie database with provided config
 	triedb := trie.NewDatabaseWithConfig(db, &trie.Config{
 		Cache:     cacheConfig.TrieCleanLimit,
@@ -252,6 +255,11 @@ func NewBlockChain(db ethdb.Database, cacheConfig *CacheConfig, genesis *genesis
 		return nil, genesisErr
 	}
 	log.Info("")
+	log.Info("<--------- chainConfig.String() -------> ")
+	log.Info("-------> ", chainConfig.String())
+	log.Info("<--------- chainConfig.String() -------> ")
+
+
 	log.Info(strings.Repeat("-", 153))
 	// TODO meowsbits implement prettier Strings (aka 'Description()') for chain configurator implementations.
 	for _, line := range strings.Split(chainConfig.String(), "\n") {
