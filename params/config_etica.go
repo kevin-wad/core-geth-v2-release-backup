@@ -30,6 +30,11 @@ var (
 		Ethash:                        new(ctypes.EthashConfig),
 		
         //HomesteadBlock: big.NewInt(0),
+		//Homestead
+		EIP2FBlock: big.NewInt(0),
+		EIP7FBlock: big.NewInt(0),
+
+
 		EIP150Block: big.NewInt(0),
 		EIP155Block:  big.NewInt(0),
 
