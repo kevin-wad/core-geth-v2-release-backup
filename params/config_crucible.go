@@ -37,7 +37,6 @@ var (
 		EIP150Block: big.NewInt(0),
 		EIP155Block:  big.NewInt(0),
 
-
 		//EIP158FBlock: big.NewInt(0),
 		// EIP158~
 		EIP160FBlock: big.NewInt(0),
@@ -45,8 +44,6 @@ var (
 		EIP170FBlock: big.NewInt(0),
 
 		//ByzantiumBlock: big.NewInt(0),
-		//ConstantinopleBlock: big.NewInt(0),
-
 		// Byzantium eq
 		EIP100FBlock: big.NewInt(0),
 		EIP140FBlock: big.NewInt(0),
@@ -59,6 +56,7 @@ var (
 		EIP658FBlock: big.NewInt(0),
 		
 
+		//ConstantinopleBlock: big.NewInt(0),
 		// Constantinople eq, aka Agharta
 		EIP145FBlock:  big.NewInt(0),
 		EIP1014FBlock: big.NewInt(0),
@@ -68,7 +66,7 @@ var (
 
 		PetersburgBlock: big.NewInt(0),
 
-		//EticaSmartContractv2: big.NewInt(480000), // need to be set to mainnet block height + delay
+		EticaSmartContractv2: big.NewInt(480000), // need to be set to mainnet block height + delay
 
 		
 		// EIP1283FBlock:   big.NewInt(9573000),

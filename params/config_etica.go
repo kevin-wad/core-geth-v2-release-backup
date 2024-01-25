@@ -34,7 +34,6 @@ var (
 		EIP2FBlock: big.NewInt(0),
 		EIP7FBlock: big.NewInt(0),
 
-
 		EIP150Block: big.NewInt(0),
 		EIP155Block:  big.NewInt(0),
 
@@ -43,9 +42,8 @@ var (
 		EIP161FBlock: big.NewInt(0),
 		EIP170FBlock: big.NewInt(0),
 
-		//ByzantiumBlock: big.NewInt(0),
-		//ConstantinopleBlock: big.NewInt(0),
 
+		//ByzantiumBlock: big.NewInt(0),
 		// Byzantium eq
 		EIP100FBlock: big.NewInt(0),
 		EIP140FBlock: big.NewInt(0),
@@ -56,10 +54,13 @@ var (
 		EIP214FBlock: big.NewInt(0),
 		EIP658FBlock: big.NewInt(0),
 
+		//ConstantinopleBlock: big.NewInt(0),
 		// Constantinople eq, aka Agharta
 		EIP145FBlock:  big.NewInt(0),
 		EIP1014FBlock: big.NewInt(0),
 		EIP1052FBlock: big.NewInt(0),
+		EIP1234FBlock:  big.NewInt(0), // added
+		EIP1283FBlock: big.NewInt(0), // added
 
 		PetersburgBlock: big.NewInt(0),
 
