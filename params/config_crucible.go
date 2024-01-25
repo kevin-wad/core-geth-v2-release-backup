@@ -55,7 +55,7 @@ var (
 		EIP212FBlock: big.NewInt(0),
 		EIP213FBlock: big.NewInt(0),
 		EIP214FBlock: big.NewInt(0),
-		//EIP649FBlock:  big.NewInt(0), // added
+		EIP649FBlock:  big.NewInt(0), // added
 		EIP658FBlock: big.NewInt(0),
 		
 
@@ -63,8 +63,8 @@ var (
 		EIP145FBlock:  big.NewInt(0),
 		EIP1014FBlock: big.NewInt(0),
 		EIP1052FBlock: big.NewInt(0),
-		//EIP1234FBlock:  big.NewInt(0), // added
-		//EIP1283FBlock: big.NewInt(0), // added
+		EIP1234FBlock:  big.NewInt(0), // added
+		EIP1283FBlock: big.NewInt(0), // added
 
 		PetersburgBlock: big.NewInt(0),
 
