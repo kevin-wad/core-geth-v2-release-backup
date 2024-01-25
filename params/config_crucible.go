@@ -39,8 +39,13 @@ var (
 		EIP150Block: big.NewInt(0),
 		EIP155Block:  big.NewInt(0),
 
+		EIP649FBlock:  big.NewInt(0),
+		EIP1234FBlock:  big.NewInt(0),
+
+
 		//EIP158FBlock: big.NewInt(0),
 		// EIP158~
+		EIP160FBlock: big.NewInt(0),
 		EIP161FBlock: big.NewInt(0),
 		EIP170FBlock: big.NewInt(0),
 
