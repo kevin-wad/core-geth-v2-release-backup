@@ -28,6 +28,7 @@ var (
 		NetworkID:                 61888,
 		ChainID:                   big.NewInt(61888),
 		Ethash:                        new(ctypes.EthashConfig),
+		SupportedProtocolVersions: vars.DefaultProtocolVersions,
 
 		//HomesteadBlock: big.NewInt(0),
         //Homestead
