@@ -66,7 +66,7 @@ var (
 
 		PetersburgBlock: big.NewInt(0),
 
-		EticaSmartContractv2: big.NewInt(480000), // need to be set to mainnet block height + delay
+		EticaSmartContractv2: big.NewInt(500000000), // need to be set to testnet block height + delay
 
 		
 		// EIP1283FBlock:   big.NewInt(9573000),
